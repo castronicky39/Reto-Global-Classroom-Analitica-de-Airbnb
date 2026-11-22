@@ -1,0 +1,62 @@
+variable,tipo,descripcion
+id,numérica,Identificador del anuncio
+price,numérica,Precio por noche (USD) – variable objetivo
+neighbourhood_group_cleansed,categórica,Municipio (borough)
+neighbourhood_cleansed,categórica,Barrio
+room_type,categórica,Tipo de alojamiento
+tipo_propiedad,categórica,Tipo de propiedad (categorías con menos de 200 anuncios agrupadas en Other)
+licencia,categórica,"Estado de la licencia: sin_licencia, exenta o registrada"
+host_is_superhost,numérica,Anfitrión Superhost (1/0)
+banos_compartido,numérica,Baño compartido (1/0)
+host_local,numérica,Anfitrión ubicado en Nueva York (1/0)
+sin_resenas,numérica,Anuncio sin reseñas (1/0)
+accommodates,numérica,Capacidad de huéspedes
+bedrooms,numérica,Número de habitaciones
+beds,numérica,Número de camas
+banos,numérica,Número de baños
+minimum_nights,numérica,Mínimo de noches (máx. 365)
+maximum_nights,numérica,Máximo de noches (máx. 1125)
+availability_30,numérica,Días disponibles en los próximos 30
+availability_365,numérica,Días disponibles en los próximos 365
+number_of_reviews,numérica,Número total de reseñas
+number_of_reviews_ltm,numérica,Reseñas en los últimos 12 meses
+reviews_per_month,numérica,Reseñas por mes
+review_scores_rating,numérica,Calificación (1–5): rating
+review_scores_accuracy,numérica,Calificación (1–5): accuracy
+review_scores_cleanliness,numérica,Calificación (1–5): cleanliness
+review_scores_checkin,numérica,Calificación (1–5): checkin
+review_scores_communication,numérica,Calificación (1–5): communication
+review_scores_location,numérica,Calificación (1–5): location
+review_scores_value,numérica,Calificación (1–5): value
+host_listings_count,numérica,Anuncios del anfitrión
+calculated_host_listings_count,numérica,Anuncios del anfitrión (calculado en Nueva York)
+estimated_occupancy_l365d,numérica,"Ocupación estimada, últimos 365 días (noches)"
+latitude,numérica,Latitud
+longitude,numérica,Longitud
+distancia_centro_km,numérica,Distancia a Times Square (km)
+host_antiguedad_anios,numérica,Antigüedad del anfitrión (años)
+n_amenities,numérica,Número de comodidades
+dias_desde_primera_resena,numérica,Días desde la primera reseña
+dias_desde_ultima_resena,numérica,Días desde la última reseña
+amen_self_check_in,numérica,"Ofrece la comodidad ""self check in"" (1/0)"
+amen_fire_extinguisher,numérica,"Ofrece la comodidad ""fire extinguisher"" (1/0)"
+amen_shampoo,numérica,"Ofrece la comodidad ""shampoo"" (1/0)"
+amen_first_aid_kit,numérica,"Ofrece la comodidad ""first aid kit"" (1/0)"
+amen_long_term_stays_allowed,numérica,"Ofrece la comodidad ""long term stays allowed"" (1/0)"
+amen_tv,numérica,"Ofrece la comodidad ""tv"" (1/0)"
+amen_cooking_basics,numérica,"Ofrece la comodidad ""cooking basics"" (1/0)"
+amen_extra_pillows_and_blankets,numérica,"Ofrece la comodidad ""extra pillows and blankets"" (1/0)"
+amen_free_street_parking,numérica,"Ofrece la comodidad ""free street parking"" (1/0)"
+amen_microwave,numérica,"Ofrece la comodidad ""microwave"" (1/0)"
+amen_coffee_maker,numérica,"Ofrece la comodidad ""coffee maker"" (1/0)"
+amen_dedicated_workspace,numérica,"Ofrece la comodidad ""dedicated workspace"" (1/0)"
+amen_heating,numérica,"Ofrece la comodidad ""heating"" (1/0)"
+amen_hot_water_kettle,numérica,"Ofrece la comodidad ""hot water kettle"" (1/0)"
+amen_freezer,numérica,"Ofrece la comodidad ""freezer"" (1/0)"
+amen_cleaning_products,numérica,"Ofrece la comodidad ""cleaning products"" (1/0)"
+amen_refrigerator,numérica,"Ofrece la comodidad ""refrigerator"" (1/0)"
+amen_dishes_and_silverware,numérica,"Ofrece la comodidad ""dishes and silverware"" (1/0)"
+amen_dining_table,numérica,"Ofrece la comodidad ""dining table"" (1/0)"
+amen_oven,numérica,"Ofrece la comodidad ""oven"" (1/0)"
+barrio_agrupado,categórica,Barrio (los de menos de 100 anuncios agrupados en Other)
+log_price,numérica,Logaritmo natural del precio
